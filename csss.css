@@ -1,9 +1,19 @@
 body {
-  background-image: url('http://www.vintageguitar.com/wp-content/uploads/wallpapers/13-GRETSCHES-1920-x-1080-HDTV-1080p.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2012/12/05/07/53/music-68719_640.jpg');
+  background-attachment: fixed;
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   background-size: cover;
+}
+header{
+
+    text-align: center;
+    position: fixed;
+
+    top: 0px;
+    margin-bottom: 20px;
+
 }
 div {
   height: 200px;
@@ -48,7 +58,7 @@ p {
   background-image: url('https://images3.alphacoders.com/210/thumb-1920-210359.jpg');
 }
 .second{
-  background-image: url('http://hd-wall-papers.com/images/wallpapers/guitars-wallpaper/guitars-wallpaper-1.jpg');
+  background-image: url('http://www.vintageguitar.com/wp-content/uploads/wallpapers/13-GRETSCHES-1920-x-1080-HDTV-1080p.jpg');
 }
 .third{
   background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/11/Photos-HD-Drum-Set-2560x1440-620x349.jpg');
@@ -106,4 +116,7 @@ small {
 
 .show-description small {
   opacity: 1;
-}
+  .show-description:hover{
+          color: #fff;
+          background: #939393;
+      }
